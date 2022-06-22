@@ -1,0 +1,12 @@
+h3{
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.tasksCounter{
+    font-size: 24px;
+    color: black;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+}

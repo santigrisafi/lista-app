@@ -13,7 +13,7 @@ let defaultTasks = [
   {
     description: "To Play",
     completed: false,
-  },
+  }
 ];
 
 let App = () => {
@@ -47,7 +47,7 @@ let App = () => {
       />
       <TasksSearch setInputSearch={setInputSearch} inputSearch={inputSearch} />
       <TasksList>
-        {tasks.map((task) => {
+        {tasks.map((task, index) => {
           return (
             <TasksItem
               key={task.description}

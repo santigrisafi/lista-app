@@ -1,6 +1,5 @@
-import { Modal } from 'bootstrap';
 import React from 'react';
-import "./ButtonTask.css";
+import "../ButtonTask/ButtonTask.css";
 
 let addTask = () =>{
   let tarea = prompt("Ingrese la tarea");
